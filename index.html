@@ -1,31 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Lista de Compras</title>
-    <meta charset="utf-8" />
-    <script src="./index.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
-  </head>
-  <body>
-    <h1>Lista de Compras</h1>
-    <hr />
-    <p>
-      Item: <input id="inputItem" type="text" />
-      Quantidade: <input id="inputQuantidade" type="number" />
-      Preço: <input id="inputPreco" type="number" />
-      <button id="btAdicionar">Adicionar</button>
-      <button id="btLimpar">Limpar</button>
-    </p>
-    <hr />
-    <table id="lista">
-      <thead>
-        <tr>
-          <th>Descrição</th>
-          <th>Quantidade</th>
-          <th>Preço</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </body>
+<head>
+	<title>Botão para rodar dado</title>
+  <script src="./index.js" defer></script>
+</head>
+<body>
+	<button onclick="gerar()">Rodar Dado</button>
+	<h1 id="resultado"></h1>
+</body>
 </html>
